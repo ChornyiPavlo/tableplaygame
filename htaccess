@@ -1,0 +1,38 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page56832449.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^hobbytablegameboardcom$ page59786451.html [NC]
+RewriteRule ^hobbytablegameboardcom/$ page59786451.html [NC]
+
+RewriteRule ^hobbytabletopversecom$ page59790357.html [NC]
+RewriteRule ^hobbytabletopversecom/$ page59790357.html [NC]
+
+RewriteRule ^hobbydicemasterscom$ page59799377.html [NC]
+RewriteRule ^hobbydicemasterscom/$ page59799377.html [NC]
+
+RewriteRule ^habbymeeplemaniacom$ page59859919.html [NC]
+RewriteRule ^habbymeeplemaniacom/$ page59859919.html [NC]
+
+RewriteRule ^habbyboardboundcom$ page59867379.html [NC]
+RewriteRule ^habbyboardboundcom/$ page59867379.html [NC]
+
+RewriteRule ^hobbygamenexuscom$ page59873931.html [NC]
+RewriteRule ^hobbygamenexuscom/$ page59873931.html [NC]
+
+RewriteRule ^playcovehobbycom$ page59936423.html [NC]
+RewriteRule ^playcovehobbycom/$ page59936423.html [NC]
+
+RewriteRule ^4234$ page59991095.html [NC]
+RewriteRule ^4234/$ page59991095.html [NC]
+
+RewriteRule ^324$ page59991121.html [NC]
+RewriteRule ^324/$ page59991121.html [NC]
+
+
